@@ -1,13 +1,13 @@
 def square_array(array)
 
   counter = 0 
-  new_num = []
+  new_array = []
   
-  while counter < array.length do
-    new_num << (array[counter] ** 2)
+  while array[counter] do
+    new_array << (array[counter] ** 2)
     counter += 1
   end
   
-  return new_num
+  return new_array
     
 end
